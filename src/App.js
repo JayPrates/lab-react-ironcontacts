@@ -48,7 +48,7 @@ function App() {
               <tr>
                 <th><img src={contact.pictureUrl} with='200' height='200' /></th>
                 <th>{contact.name}</th>
-                <th>{contact.popularity}</th>
+                <th>{contact.popularity.toFixed(2)}</th>
                 <th>{contact.wonOscar ? "🏆" : ""}</th>
                 <th>{contact.wonEmmy ? "🏆" : ""}</th>
               </tr>
