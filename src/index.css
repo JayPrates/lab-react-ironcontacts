@@ -49,9 +49,13 @@ background: linear-gradient(90deg, rgba(151,151,154,1) 0%, rgba(175,175,189,1) 2
   border-right: none !important;
   border-bottom: none !important;
   border-top: 3px solid black;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 20px 0px 20px;
   background: gray;
   color: white;
+}
+
+th h2{
+  font-size: 25px;
 }
 
 #root{
