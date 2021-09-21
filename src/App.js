@@ -52,7 +52,7 @@ function App() {
                 <th>{contact.wonOscar ? "🏆" : ""}</th>
                 <th>{contact.wonEmmy ? "🏆" : ""}</th>
               </tr>
-              <button onClick={() => deleteContact(contact.id)}>Delete Contact</button>
+              <button type="button" class="btn btn-secondary" onClick={() => deleteContact(contact.id)}>Delete Contact</button>
             </>
             )
           })}
