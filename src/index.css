@@ -46,6 +46,9 @@ background: linear-gradient(90deg, rgba(151,151,154,1) 0%, rgba(175,175,189,1) 2
 
 #tableHead{
   border-radius: 15px;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-top: 3px solid black;
   padding: 0px 10px 0px 10px;
   background: gray;
   color: white;
