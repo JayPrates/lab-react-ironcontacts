@@ -36,7 +36,7 @@ function App() {
       <div className="App">
         <h1>IronContacts</h1>
         <table>
-          <tr>
+          <tr id="tableHead">
             <th><h2>Picture</h2></th>
             <th><h2>Name</h2></th>
             <th><h2>Popularity</h2></th>
